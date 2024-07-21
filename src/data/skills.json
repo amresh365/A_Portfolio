@@ -1,0 +1,27 @@
+[
+  { "title": "HTML", "img": "src/assets/html.png" },
+  {
+    "title": "CSS",
+    "img": "src/assets/css.png"
+  },
+  {
+    "title": "Java Script",
+    "img": "src/assets/javaScript.jpeg"
+  },
+  {
+    "title": "",
+    "img": "src/assets/css.png"
+  },
+  {
+    "title": "CSS",
+    "img": "src/assets/css.png"
+  },
+  {
+    "title": "CSS",
+    "img": "src/assets/css.png"
+  },
+  {
+    "title": "CSS",
+    "img": "src/assets/css.png"
+  }
+]
