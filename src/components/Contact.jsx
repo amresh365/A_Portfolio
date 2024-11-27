@@ -65,12 +65,12 @@ export const Contact = () => {
         <ul className="contactlist">
           <li>
             <a href="https://wa.me/919598920855" text="urlencodedtext">
-              <i class="fa-brands fa-square-whatsapp logo"></i>
+              <i className="fa-brands fa-square-whatsapp logo"></i>
             </a>
           </li>
           <li>
             <a href="https://t.me/AmreshG365">
-              <i class="fa-brands fa-telegram logo"></i>
+              <i className="fa-brands fa-telegram logo"></i>
             </a>
           </li>
         </ul>
