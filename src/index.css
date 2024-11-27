@@ -6,9 +6,11 @@ body {
   height: 100vh;
   width: 100%;
 }
+
 html {
   width: 100%;
 }
+
 .headings {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
@@ -26,6 +28,7 @@ html {
   height: 70px;
   font-size: 20px;
 }
+
 .nav-item:hover {
   border-bottom: 3px solid white;
   transition: transform 50ms ease-in;
@@ -128,6 +131,11 @@ html {
     width: 70%;
     animation: move 0s infinite;
   }
+  .about {
+  }
+  .aboutP {
+    font-size: 10px;
+  }
 }
 
 @keyframes superman {
@@ -166,16 +174,6 @@ h3 {
   transition: transform 200ms ease-out;
   transform: scale(1.1);
   box-shadow: 0px 0px 3px 5px rgba(12, 156, 118, 0.5);
-}
-
-/* Footer Section */
-.footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-  height: 110px;
 }
 
 /* About Section */
@@ -295,4 +293,14 @@ p {
   position: absolute;
   top: 90px;
   color: black;
+}
+
+/* Footer Section */
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  height: 110px;
 }

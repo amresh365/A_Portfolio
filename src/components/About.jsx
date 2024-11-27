@@ -5,7 +5,7 @@ const About = () => {
     <div>
       <div className="container about aboutme text-light">
         <h2 className="headings">About Me</h2>
-        <p>
+        <p className="aboutP">
           <strong>Hi!</strong> My name is <strong>Amresh Gupta</strong> I am
           currently pursuing a B.Tech in Computer Science and I am deeply
           passionate in the tech field.My focus honed my skills in programming,
