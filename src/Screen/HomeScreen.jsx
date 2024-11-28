@@ -10,7 +10,10 @@ const HomScreen = () => {
   return (
     <div className="bg-dark">
       <Header />
-      <Home />
+      <div className="">
+        <Home />
+      </div>
+
       <About />
       <Skills />
       {/* <Projects /> */}

@@ -42,10 +42,13 @@ html {
 
 .introcontainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+.resume {
+  margin-top: 100px;
 }
 .intro {
   height: 30%;
@@ -53,10 +56,14 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 2px solid white; */
   box-shadow: 2px 3px 3px 5px rgba(rgb(46, 14, 160), rgb(35, 39, 35), blue, 0.4);
   border-radius: 20px;
   margin-left: 130px;
+}
+.intro-animate {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 12px;
 }
 .intro:hover {
   box-shadow: var(--box-shadow);
@@ -116,8 +123,9 @@ html {
     width: 40%;
   }
   .intro {
-    height: 60%;
+    height: 30%;
     width: 60%;
+    margin-bottom: 50px;
   }
   .myimg {
     width: 40%;
@@ -131,14 +139,16 @@ html {
     width: 70%;
     animation: move 0s infinite;
   }
-  .about {
-  }
+
   .aboutP {
     font-size: 10px;
   }
+  .resume {
+    margin-top: 0px;
+  }
 }
 
-@keyframes superman {
+/* @keyframes superman {
   0% {
     box-shadow: var(--box-shadow);
   }
@@ -151,7 +161,7 @@ html {
   }
   100% {
   }
-}
+} */
 
 h3 {
   margin-top: 40px;
@@ -169,6 +179,8 @@ h3 {
   color: white;
   padding-top: 5px;
   padding-left: 5px;
+  font-size: 18px;
+  padding: 10px;
 }
 .download:hover {
   transition: transform 200ms ease-out;
@@ -248,6 +260,22 @@ p {
   top: 10px;
 }
 /* Contact Section*/
+.skillsCoding {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 80px;
+}
+.cheakmeout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0px;
+  padding: 0px; */
+}
 .connectUs {
   margin: 0;
   font-family: "Courier New", Courier, monospace;

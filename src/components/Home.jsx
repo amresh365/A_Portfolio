@@ -3,21 +3,19 @@ import pdf from "../pdf/Resume.pdf";
 const Home = () => {
   return (
     <div className="introcontainer ">
-      {" "}
       <div className="intro text-light">
-        <h3 className="intro-animate">
+        <p className="intro-animate">
           {"                          "}
           Hi! 🙋‍♂
           <br />
-          WELCOME FROM AMRESH GUPTA
-        </h3>
+          Great to See You!
+        </p>
+      </div>
+      <div className="resume">
         <a href={pdf} download="resume.pdf" className="download">
           Download Resume
         </a>
       </div>
-      {/* <div className="image">
-        <img src="/myphoto2.jpg" className="myimg" />
-      </div> */}
     </div>
   );
 };

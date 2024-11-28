@@ -44,16 +44,6 @@ export const Contact = () => {
                   <i className="fa-brands fa-instagram logo"></i>
                 </a>
               </li>
-              <li>
-                <a href="https://leetcode.com/u/amreshgupta365/">
-                  <i className="fa-solid fa-l logo"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.hackerrank.com/profile/amreshgupta365">
-                  <i className="fa-brands fa-hackerrank logo"></i>
-                </a>
-              </li>
             </ul>
           </div>
         </div>
@@ -74,6 +64,24 @@ export const Contact = () => {
             </a>
           </li>
         </ul>
+
+        <div className="cheakmeout">
+          <p style={{ margin: "0px" }} className="headings">
+            cheak me out
+          </p>
+          <ul className="skillsCoding">
+            <li>
+              <a href="https://leetcode.com/u/amreshgupta365/">
+                <i className="fa-solid fa-l logo"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.hackerrank.com/profile/amreshgupta365">
+                <i className="fa-brands fa-hackerrank logo"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
