@@ -46,7 +46,7 @@ const Skills = () => {
           <div className="col">
             <div className="card bg-dark text-light">
               <img
-                src="/assets/reactLogo.png"
+                src="/assets/reactlogo.png"
                 className="card-img-top"
                 alt="..."
               />
