@@ -9,7 +9,7 @@ const Skills = () => {
           <div className="col">
             <div className="card bg-dark text-light">
               <img
-                src="src/assets/html.png"
+                src="/assets/html.png"
                 className="card-img-top bg-light
                 "
                 alt="..."
@@ -22,7 +22,7 @@ const Skills = () => {
           <div className="col">
             <div className="card bg-dark text-light">
               <img
-                src="src/assets/css.png"
+                src="/assets/css.png"
                 className="card-img-top bg-light"
                 alt="..."
               />
@@ -34,7 +34,7 @@ const Skills = () => {
           <div className="col">
             <div className="card bg-dark text-light">
               <img
-                src="src/assets/javaScript.jpeg"
+                src="/assets/javaScript.jpeg"
                 className="card-img-top jsimg"
                 alt="..."
               />
@@ -46,7 +46,7 @@ const Skills = () => {
           <div className="col">
             <div className="card bg-dark text-light">
               <img
-                src="src/assets/reactLogo.png"
+                src="/assets/reactLogo.png"
                 className="card-img-top"
                 alt="..."
               />
@@ -60,7 +60,7 @@ const Skills = () => {
           <div className="col">
             <div className="card bg-dark text-light">
               <img
-                src="src/assets/redux.webp "
+                src="/assets/redux.webp "
                 className="card-img-top reduxImg"
                 alt="..."
               />
@@ -72,7 +72,7 @@ const Skills = () => {
           <div className="col ">
             <div className="card text-light bg-dark">
               <img
-                src="src/assets/nodejs.webp"
+                src="/assets/nodejs.webp"
                 className="card-img-top"
                 alt="..."
               />
@@ -84,7 +84,7 @@ const Skills = () => {
           <div className="col">
             <div className="card bg-dark text-light">
               <img
-                src="src/assets/express.png"
+                src="/assets/express.png"
                 className="card-img-top"
                 alt="..."
               />
@@ -97,7 +97,7 @@ const Skills = () => {
           <div className="col">
             <div className="card bg-dark text-light">
               <img
-                src="src/assets/mongodb.png"
+                src="/assets/mongodb.png"
                 className="card-img-top"
                 alt="..."
               />
