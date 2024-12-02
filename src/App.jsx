@@ -4,6 +4,7 @@ const App = () => {
   return (
     <div className="bg-dark">
       <HomScreen />
+      {/* new change */}
     </div>
   );
 };
